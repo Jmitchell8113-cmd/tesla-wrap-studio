@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tesla Luxury Wrap Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Tesla Luxury Wrap Studio</h1>
+
+  <div class="panel">
+    <label>Model</label>
+    <select id="model">
+      <option>Model Y</option>
+      <option>Model 3</option>
+      <option>Model S</option>
+      <option>Model X</option>
+    </select>
+
+    <label>Wrap Style</label>
+    <div class="chips">
+      <div class="chip active" data-style="glossy">Glossy</div>
+      <div class="chip" data-style="matte">Matte</div>
+      <div class="chip" data-style="metallic">Metallic</div>
+    </div>
+
+    <button id="apply">Apply Wrap</button>
+  </div>
+
+  <div class="preview">
+    <img id="car" src="mama-got-junk.png">
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
